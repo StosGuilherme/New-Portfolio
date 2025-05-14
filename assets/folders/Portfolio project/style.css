@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Madimi+One&display=swap');
+
+* {
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #26281D; 
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    background-color: #171810;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    opacity: 0.9;
+    position: sticky;
+
+}
+
+
+nav ul li a  {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #03FA6E;
+    font-size: 2em;
+    background-color: #171810;
+    text-align: center;
+    transition: all 0.25s ease-in-out;
+    opacity: 0.9;
+    position: sticky;
+}
+
+
+.navegation .cabecalho:hover {
+    color: rgb(59, 133, 175);
+}
+
+.foto   {
+    display: flex;
+    margin: auto;   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro  {
+    margin: 30px;
+    padding: 10px;   
+    text-align: center;
+
+}
+
+
+
+.name {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #03FA6E;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.courses {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #00E162;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+#quem-sou-eu {
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    color: #00E162;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 40px;
+    margin: auto;
+}
+
+.container-text {
+    color: rgb(179, 179, 179);
+    margin: 10px;
+    padding: 50px;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+strong {
+    color: #00E162;
+}
+
+#projetos {
+    font-size: 40px;
+    color: #00E162;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 40px;
+    display: block;
+}
+
+
+
+img {
+    margin: auto;
+    display: block;
+    background-color: #171810;
+}  
+
+.container-logo {
+    background-color: #171810;
+    margin: 5px;
+    border: 10px solid #00E162;
+}
+
+.logo-description {
+    margin: 5px;
+    background-color: #171810;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.view {
+    margin: auto;
+    padding: 10px;
+    width: 20%;
+    display: block;
+    text-decoration: none;
+    color: #00E162;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #17181080;
+    background-color: #80808080;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+}
+
+.view-class {
+    margin: 5px;
+    padding: 120px;
+    background-color: #171810;
+}
+
+.view:hover {
+    color: #ffffff;
+    background: #03FA6E;
+    border: 1px solid #171810;
+    text-shadow: 0 0 5px #9F5CC5,
+                 0 0 10px #9F5CC5,
+                 0 0 20px #9F5CC5;
+    box-shadow: 0 0 5px #9F5CC5,
+                0 0 20px #9F5CC5,
+                0 0 50px #9F5CC5,
+                0 0 100px #9F5CC5;
+}
+
+#contato  {
+    margin-top: 20px;
+    width: 50%;
+    font-size: 40px;
+    color: #00E162;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 40px;
+    display: block;
+}
+
+.instagram {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;   
+    transition: all 0.5s ease-in-out;
+}
+
+.whatsapp {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;   
+    transition: all 0.5s ease-in-out;
+}
+
+.instagram:hover {
+    color: #00E162;
+}
+
+.whatsapp:hover {
+    color: #00E162;
+}
+
+.end {
+    text-decoration: none;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 40px;
+    color: #00E162;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 40px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.end:hover {
+    color:  aliceblue;
+    text-shadow: 0 0 5px #03FA6E,
+                 0 0 10px #03FA6E,
+                 0 0 20px #03FA6E;
+}

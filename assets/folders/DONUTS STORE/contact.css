@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kufam:ital,wght@0,400..900;1,400..900&family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kufam", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0CC0DF;
+}
+
+
+
+::-webkit-scrollbar{
+    color: #FF7074 ;
+    background-color: #FED8DF;
+} 
+
+header {
+    background-color: white;
+    color: #FF7074;
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-radius: 0px 0px 30px 30px;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 20px;
+    background-color: white;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0CC0DF;
+    transition: all 0.25s ease-in-out;
+    font-size: 1.5em;
+}
+
+section .contact-link {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #f8bf04;
+    text-decoration: underline;
+}
+
+main section {
+    color: #f8bf04;
+    background-color: #0CC0DF;
+    text-align: center;
+}
+
+main section p {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+main section h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    margin-top:100px;
+    margin-bottom: 100px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+#especial {
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 9em;
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 12px;
+    overflow: hidden;
+
+}
+
+section ul {
+    background-color: rgb(255, 254, 169);
+    display: flex;
+    gap: 12%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    border-radius: 2px;
+}
+
+section ul li {
+    background-color:  #f1f0f0e8;
+    border-radius: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    list-style: none;
+    box-shadow: black;
+    min-width: 100px;
+}
+
+section ul li h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    width: 300px;
+}
+
+section ul li h2 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.7em;
+}
+
+section iframe {
+    display: flex;
+    margin: auto;
+    padding: 40px;
+}
+
+strong {
+    color: rgb(100, 100, 100);
+}
+
+footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #0CC0DF;
+    color: #065968;
+}
+

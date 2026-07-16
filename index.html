@@ -176,8 +176,13 @@
     </section>
 
     <section id="contato">
-      <h1>OPÇÕES DE CONTATO</h1>
-      <h3>Preencha este formulário para que possamos entrar em contato!</h3>
+      <div class="contato-intro">
+        <p class="eyebrow">Vamos conversar</p>
+        <h2>Opções de contato</h2>
+        <p class="section-desc">
+          Preencha o formulário e retorno o quanto antes.
+        </p>
+      </div>
 
       <form
         id="form"
@@ -186,31 +191,35 @@
       >
         <!-- Nome -->
         <div class="form-group">
-          <label for="campo_nome">Nome completo</label>
-          <input type="text" name="name" id="campo_nome" placeholder="Nome" />
+          <input
+            type="text"
+            name="name"
+            id="campo_nome"
+            placeholder="Nome completo"
+            aria-label="Nome completo"
+          />
           <a class="error">Preencha os campos corretamente</a>
         </div>
 
         <!-- Email -->
         <div class="form-group">
-          <label for="campo_email">Seu email</label>
           <input
             type="email"
             name="email"
             id="campo_email"
-            placeholder="Email"
+            placeholder="Seu email"
+            aria-label="Seu email"
           />
           <a class="error">Preencha os campos corretamente</a>
         </div>
 
         <!-- Mensagem -->
         <div class="form-group">
-          <label for="campo_mensagem">Deixe sua mensagem aqui!</label>
           <textarea
-            type="text"
             name="message"
             id="campo_mensagem"
             placeholder="Sua mensagem"
+            aria-label="Sua mensagem"
           ></textarea>
           <a class="error">Preencha os campos corretamente</a>
         </div>
@@ -218,7 +227,7 @@
         <!-- Enviar -->
         <div class="form-group-send">
           <input type="hidden" name="_captcha" value="false" />
-          <input type="submit" value="Enviar" />
+          <input type="submit" value="Enviar mensagem" />
         </div>
       </form>
     </section>

@@ -5,6 +5,23 @@
   bottom: var(--space-md);
 }
 
+.back-to-top a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.35);
+  transition: var(--transition-base);
+}
+
+.back-to-top a:hover {
+  background-color: var(--color-primary-dark);
+}
+
 .back-to-top img {
-  width: 40px;
+  width: 18px;
+  filter: invert(1);
 }

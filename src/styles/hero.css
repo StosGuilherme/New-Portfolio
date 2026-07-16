@@ -9,7 +9,7 @@ main {
   background-color: var(--color-dark);
   border-radius: var(--radius-xl);
   padding: var(--space-lg) var(--space-md);
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .hero-intro .eyebrow {
@@ -44,7 +44,7 @@ main {
 
 .hero-intro .download-cv {
   background-color: var(--color-primary);
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 700;
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-sm);

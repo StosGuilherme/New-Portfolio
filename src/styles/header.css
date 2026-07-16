@@ -42,7 +42,7 @@ header nav ul {
   align-items: center;
   gap: var(--space-sm);
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   list-style: none;
   padding: var(--space-md) 0 0;
 }
@@ -68,7 +68,7 @@ header nav ul li a:hover {
   padding: 11px 22px;
   background-color: var(--color-primary);
   font-weight: 700;
-  color: #ffffff;
+  color: var(--color-white);
   border-radius: var(--radius-sm);
 }
 

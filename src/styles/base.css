@@ -30,6 +30,6 @@ img {
 .page {
   max-width: var(--container-max);
   margin: 0 auto;
-  background-color: #ffffff;
-  overflow: hidden;
+  background-color: var(--color-white);
+  overflow-x: clip;
 }

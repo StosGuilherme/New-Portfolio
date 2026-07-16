@@ -19,7 +19,7 @@
   font-family: var(--font-family-heading);
   font-weight: 800;
   font-size: clamp(1.5rem, 5vw, 2rem);
-  color: #ffffff;
+  color: var(--color-white);
   margin-bottom: var(--space-xs);
 }
 
@@ -45,7 +45,7 @@
   border: 1px solid var(--color-dark-border);
   border-radius: var(--radius-sm);
   padding: var(--space-sm);
-  color: #ffffff;
+  color: var(--color-white);
   font-family: var(--font-family-base);
   font-size: 0.95rem;
 }
@@ -76,7 +76,7 @@
 .form-group-send input[type='submit'] {
   width: 100%;
   background-color: var(--color-primary);
-  color: #ffffff;
+  color: var(--color-white);
   font-weight: 700;
   padding: var(--space-sm);
   border: none;

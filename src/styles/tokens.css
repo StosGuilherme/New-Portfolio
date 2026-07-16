@@ -11,6 +11,7 @@
   --color-text-muted: oklch(45% 0.01 150);
   --color-text-on-dark: oklch(75% 0.01 150);
   --color-text-on-dark-muted: oklch(70% 0.11 150);
+  --color-white: #ffffff;
 
   --font-family-base: 'Manrope', sans-serif;
   --font-family-heading: 'Sora', sans-serif;
@@ -24,7 +25,6 @@
   --radius-sm: 10px;
   --radius-lg: 20px;
   --radius-xl: 28px;
-  --radius-pill: 999px;
 
   --transition-base: all 0.3s ease-in-out;
 

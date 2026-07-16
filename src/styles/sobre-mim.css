@@ -53,7 +53,7 @@
 
 .about-text .download-cv:hover {
   background-color: var(--color-primary);
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 @media (min-width: 1024px) {

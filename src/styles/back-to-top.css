@@ -1,0 +1,10 @@
+.back-to-top {
+  position: fixed;
+  z-index: 20;
+  right: var(--space-md);
+  bottom: var(--space-md);
+}
+
+.back-to-top img {
+  width: 40px;
+}

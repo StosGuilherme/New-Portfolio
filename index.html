@@ -1,24 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Kufam:ital,wght@0,400..900;1,400..900&family=Madimi+One&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="assets/new portfolio-logo.svg"
-      type="image/png"
-    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <script type="module" src="/src/main.js"></script>
     <title>Portfolio de Guilherme</title>
   </head>
 
   <body>
     <div class="back-to-top">
-      <a href="#"><img src="assets/arrow 1 (1).svg" alt="" /></a>
+      <a href="#"><img src="src/assets/icons/arrow-up.svg" alt="" /></a>
     </div>
 
     <header>
       <nav>
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
         <ul>
           <li>&lt; Guilherme &gt;</li>
           <li><a href="#">Início</a></li>
@@ -49,16 +53,16 @@
         <h3>Trabalhando atualmente com React Native</h3>
 
         <a href="https://www.instagram.com/guime_santz/" target="_blank"
-          ><img src="assets/insta.svg" alt="Instagram"
+          ><img src="src/assets/icons/instagram.svg" alt="Instagram"
         /></a>
         <a
           href="https://www.linkedin.com/in/guilherme-santos-232b59263/"
           target="_blank"
-          ><img src="assets/linkedin.svg" alt="LinkedIn"
+          ><img src="src/assets/icons/linkedin.svg" alt="LinkedIn"
         /></a>
         <div>
           <a
-            href="assets/Currículo GUILHERME SANTOS.pdf"
+            href="curriculo.pdf"
             class="download-cv"
             download
             >Baixar currículo</a
@@ -68,7 +72,7 @@
 
       <div class="foto-gui">
         <img
-          src="assets/Captura de tela 2024-03-26 104006.png"
+          src="src/assets/images/foto-hero.png"
           alt="Foto de Guilherme"
         />
       </div>
@@ -101,11 +105,11 @@
       <ul>
         <li>
           <img
-            src="assets/Captura de tela 2024-03-26 205652 1 (1).svg"
+            src="src/assets/images/preview-donuts-store.svg"
             alt="Tela inicial do site"
           />
           <h1>LOJA DE DONUTS</h1>
-          <a href="assets/folders/DONUTS STORE/index.html" target="_blank"
+          <a href="projects/donuts-store/index.html" target="_blank"
             >Visualizar</a
           >
           <h3>
@@ -116,11 +120,11 @@
         </li>
         <li>
           <img
-            src="assets/Captura de tela 2024-03-15 104912 1.svg"
+            src="src/assets/images/preview-portfolio-legado.svg"
             alt="Logo do Portfolio antigo"
           />
           <h1>PRIMEIRO PORTFOLIO</h1>
-          <a href="assets/folders/Portfolio project/index.html" target="_blank"
+          <a href="projects/portfolio-legado/index.html" target="_blank"
             >Visualizar</a
           >
           <h3>
@@ -130,7 +134,7 @@
         </li>
         <li>
           <img
-            src="assets/new portfolio-logo.svg"
+            src="src/assets/icons/logo-portfolio.svg"
             alt="Logo do novo Portfolio"
           />
           <h1>NOVO PORTFOLIO</h1>
@@ -151,7 +155,7 @@
     </section>
 
     <section class="container-about-me">
-      <img src="assets/Foto Gui - 2.svg" alt="Foto de Guilherme" />
+      <img src="src/assets/images/foto-sobre-mim.svg" alt="Foto de Guilherme" />
       <h3>
         Aos 11 anos decidi começar a estudar o idioma inglês, e juntamente ao
         curso, dei início às aulas de música. Sou apaixonado na música, escuto
@@ -174,7 +178,7 @@
         <br />
 
         <a
-          href="assets/Currículo GUILHERME SANTOS.pdf"
+          href="curriculo.pdf"
           class="download-cv"
           download
           >Baixar currículo</a
@@ -229,7 +233,5 @@
         </div>
       </form>
     </section>
-
-    <script src="script/script.js"></script>
   </body>
 </html>

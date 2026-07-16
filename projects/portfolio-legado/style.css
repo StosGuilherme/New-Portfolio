@@ -1,0 +1,234 @@
+* {
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #26281D;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #171810;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #03FA6E;
+    font-size: 1.2em;
+    background-color: #171810;
+    text-align: center;
+    transition: all 0.25s ease-in-out;
+    opacity: 0.9;
+}
+
+.foto {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.foto img {
+    max-width: 100%;
+    width: 220px;
+    height: auto;
+}
+
+.intro {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: clamp(1.75rem, 8vw, 60px);
+    color: #03FA6E;
+    display: flex;
+    justify-content: center;
+}
+
+.courses {
+    margin-top: 30px;
+    font-size: clamp(1.1rem, 4vw, 2em);
+    color: #00E162;
+    text-align: center;
+}
+
+#quem-sou-eu {
+    font-size: clamp(1.5rem, 6vw, 40px);
+    display: block;
+    color: #00E162;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 30px 15px;
+}
+
+.container-text {
+    color: rgb(179, 179, 179);
+    margin: 10px;
+    padding: 20px;
+    font-size: clamp(1rem, 3vw, 1.5em);
+    text-align: center;
+}
+
+strong {
+    color: #00E162;
+}
+
+#projetos {
+    font-size: clamp(1.5rem, 6vw, 40px);
+    color: #00E162;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 30px 15px;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    background-color: #171810;
+}
+
+.container-logo {
+    background-color: #171810;
+    margin: 15px auto;
+    max-width: 320px;
+    border: 10px solid #00E162;
+}
+
+.logo-description {
+    margin: 5px;
+    background-color: #171810;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.view {
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    color: #00E162;
+    text-align: center;
+    font-size: 1.3em;
+    border: 2px solid #17181080;
+    background-color: #80808080;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+}
+
+.view-class {
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: #171810;
+}
+
+.view:hover {
+    color: #ffffff;
+    background: #03FA6E;
+    border: 1px solid #171810;
+}
+
+#contato {
+    margin-top: 20px;
+    font-size: clamp(1.5rem, 6vw, 40px);
+    color: #00E162;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 30px 15px;
+    display: block;
+}
+
+.instagram,
+.whatsapp {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: clamp(1rem, 3vw, 25px);
+    text-transform: uppercase;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.instagram:hover,
+.whatsapp:hover {
+    color: #00E162;
+}
+
+.end {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: clamp(1.25rem, 5vw, 40px);
+    color: #00E162;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: #171810;
+    padding: 30px 15px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.end:hover {
+    color: aliceblue;
+}
+
+@media (min-width: 768px) {
+    nav {
+        padding: 35px;
+    }
+
+    nav ul li a {
+        font-size: 2em;
+    }
+
+    .foto img {
+        width: 320px;
+    }
+
+    .container-logo {
+        max-width: 400px;
+    }
+
+    .view-class {
+        padding: 60px 120px;
+    }
+}

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kufam", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0CC0DF;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.logo-furmans {
+    max-width: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    color: #0CC0DF ;
+    background-color: #0CC0DF;
+}
+
+header {
+    background-color: white;
+    color: #0CC0DF;
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-radius: 0px 0px 30px 30px;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 15px;
+    background-color: white;
+    font-size: 1.1em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0CC0DF;
+    transition: all 0.25s ease-in-out;
+}
+
+a:hover {
+    color: #f8bf04;
+    text-decoration: underline;
+}
+
+main section {
+    color: #ffc813;
+    background-color: #0CC0DF;
+    text-align: center;
+    padding: 0 15px;
+}
+
+main section p {
+    color: #0c6777;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+main section h1 {
+    font-size: clamp(2.5rem, 10vw, 9em);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+#especial {
+    text-align: center;
+    font-size: clamp(2.5rem, 10vw, 9em);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+section ul {
+    background-color: rgb(255, 254, 169);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    border-radius: 2px;
+    padding: 10px 0;
+}
+
+section ul li {
+    background-color: #f3b2d2;
+    border-radius: 40px;
+    margin: 20px 0;
+    list-style: none;
+    min-width: 140px;
+    max-width: 220px;
+}
+
+section ul li h3 {
+    color: #41a0b1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    width: 100%;
+    padding: 0 10px;
+}
+
+section ul li h2 {
+    color: #41a0b1;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+section iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin: auto;
+    padding: 20px;
+}
+
+strong {
+    color: rgb(100, 100, 100);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 15px;
+    background-color: #11a3bd;
+    color: #065968;
+}
+
+@media (min-width: 768px) {
+    header nav ul {
+        gap: 3rem;
+        font-size: 1.5em;
+    }
+
+    main section h1,
+    #especial {
+        font-size: 9em;
+    }
+
+    section ul li h3 {
+        width: 300px;
+    }
+}

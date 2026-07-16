@@ -1,0 +1,21 @@
+#formacao {
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  width: 100%;
+}
+
+#formacao h1 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: var(--color-text);
+  font-weight: bold;
+  padding-bottom: var(--space-md);
+}
+
+#formacao h3 {
+  width: 100%;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: var(--color-text-muted);
+  font-weight: bold;
+  line-height: 1.6;
+}

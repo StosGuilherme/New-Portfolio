@@ -21,7 +21,8 @@
   background-color: var(--color-primary-dark);
 }
 
-.back-to-top img {
+.back-to-top svg {
   width: 18px;
-  filter: invert(1);
+  height: 18px;
+  color: var(--color-white);
 }

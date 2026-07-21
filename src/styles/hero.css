@@ -70,24 +70,40 @@ main {
   justify-content: center;
 }
 
-.social-links img {
+.social-links svg {
   width: 20px;
-  filter: invert(1);
+  height: 20px;
+  color: var(--color-white);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-instagram:hover svg {
+  color: #e1306c;
+}
+
+.social-linkedin:hover svg {
+  color: #0a66c2;
+}
+
+.social-github:hover svg {
+  color: #f0f6fc;
+  transform: scale(1.1);
 }
 
 .foto-gui {
   background-color: var(--color-bg-card);
   border-radius: var(--radius-xl);
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
   overflow: hidden;
-  padding-top: var(--space-md);
+  max-width: 280px;
+  aspect-ratio: 4 / 5;
+  margin: 0 auto;
 }
 
 .foto-gui img {
-  width: 80%;
-  max-width: 320px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (min-width: 1024px) {
@@ -106,11 +122,9 @@ main {
   }
 
   .foto-gui {
-    flex: 1;
-  }
-
-  .foto-gui img {
-    width: 88%;
-    max-width: 380px;
+    flex: 0.7;
+    max-width: 340px;
+    aspect-ratio: auto;
+    margin: 0;
   }
 }

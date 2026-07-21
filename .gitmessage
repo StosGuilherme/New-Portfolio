@@ -1,0 +1,20 @@
+# <tipo>(<escopo opcional>): <descrição curta, no imperativo>
+# Exemplo: feat(hero): adiciona foto redonda no card
+
+# Corpo (opcional) — o quê e por quê, não como:
+
+
+# Rodapé (opcional) — issues, breaking changes:
+
+
+# Tipos:
+#   feat     nova funcionalidade
+#   fix      correção de bug
+#   docs     documentação
+#   style    formatação, sem mudança de lógica (espaços, ponto e vírgula...)
+#   refactor mudança de código sem alterar comportamento
+#   perf     melhoria de performance
+#   test     adiciona ou corrige testes
+#   build    build system, dependências
+#   ci       configuração de CI
+#   chore    manutenção geral, sem mudar src ou test
